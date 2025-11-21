@@ -47,7 +47,7 @@ var postOrderTraversal = function (root) {
       stack1.push(node.left);
     }
     if (node.right) {
-      stack1.push(node.right);
+      stack1.push(node.right); 
     }
     stack2.push(node.val);
   }
